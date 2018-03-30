@@ -13,7 +13,7 @@ export class FirestoreService {
 
   constructor(private angularFirestore: AngularFirestore) {
 
-    this.ordersCollection = this.angularFirestore.collection('Orders', order => order.orderBy('total', 'asc'));
+    this.ordersCollection = this.angularFirestore.collection('Orders', order => order.orderBy('total'));
     this.fetchOrders();
 
   }
