@@ -4,12 +4,12 @@ import { WebsocketService } from './websocket.service';
 
 describe('WebsocketService', () => {
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      providers: [WebsocketService]
-    });
+	TestBed.configureTestingModule({
+		providers: [WebsocketService]
+	});
   });
 
   it('should be created', inject([WebsocketService], (service: WebsocketService) => {
-    expect(service).toBeTruthy();
+	expect(service).toBeTruthy();
   }));
 });

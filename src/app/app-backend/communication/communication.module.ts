@@ -8,16 +8,16 @@ import { FirestoreService } from './firestore/firestore.service';
 import { environment } from '../../../environments/environment';
 
 @NgModule({
-    imports: [
-        CommonModule,
-        AngularFireModule.initializeApp(environment.firebaseConfig, 'cbit-app'),
-        AngularFirestoreModule,
-    ],
-    declarations: [],
-    providers: [
-        DataService,
-        WebsocketService,
-        FirestoreService,
-    ],
+	imports: [
+		CommonModule,
+		AngularFireModule.initializeApp(environment.firebaseConfig, 'cbit-app'),
+		AngularFirestoreModule,
+	],
+	declarations: [],
+	providers: [
+		DataService,
+		WebsocketService,
+		FirestoreService,
+	],
 })
 export class CommunicationModule { }

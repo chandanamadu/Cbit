@@ -4,12 +4,12 @@ import { AdminService } from './admin.service';
 
 describe('AdminService', () => {
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      providers: [AdminService]
-    });
+	TestBed.configureTestingModule({
+		providers: [AdminService]
+	});
   });
 
   it('should be created', inject([AdminService], (service: AdminService) => {
-    expect(service).toBeTruthy();
+	expect(service).toBeTruthy();
   }));
 });

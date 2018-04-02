@@ -12,16 +12,16 @@ import { TestComponent } from './app-widgets/test/test.component';
 
 @NgModule({
   declarations: [
-    AppComponent,
-    TestComponent,
+	AppComponent,
+	TestComponent,
   ],
   imports: [
-    BrowserModule,
-    AppRoutingModule,
-    CommunicationModule,
-    AngularFireModule.initializeApp(environment.firebaseConfig, 'login-app'),
-    AngularFireAuthModule,
-    FormsModule,
+	BrowserModule,
+	AppRoutingModule,
+	CommunicationModule,
+	AngularFireModule.initializeApp(environment.firebaseConfig, 'login-app'),
+	AngularFireAuthModule,
+	FormsModule,
   ],
   providers: [
   ],

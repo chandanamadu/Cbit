@@ -1,14 +1,13 @@
-
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { FirestoreService } from '../../app-backend/communication/firestore/firestore.service';
+import { FirestoreService } from '../../../app-backend/communication/firestore/firestore.service';
 
 @Component({
-  selector: 'app-test',
-  templateUrl: './test.component.html',
-  styleUrls: ['./test.component.css']
+  selector: 'app-login',
+  templateUrl: './login.component.html',
+  styleUrls: ['./login.component.css']
 })
-export class TestComponent implements OnInit {
+export class LoginComponent implements OnInit {
 
   public email: string;
   public password: string;

@@ -4,10 +4,10 @@ import { routes } from './app-routes';
 
 @NgModule({
   imports: [
-    RouterModule.forRoot(
-      routes,
-      { enableTracing: true },
-    ),
+	RouterModule.forRoot(
+		routes,
+		{ enableTracing: true },
+	),
   ],
   exports: [RouterModule],
   declarations: [],

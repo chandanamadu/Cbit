@@ -4,12 +4,12 @@ import { CustomerService } from './customer.service';
 
 describe('CustomerService', () => {
   beforeEach(() => {
-    TestBed.configureTestingModule({
-      providers: [CustomerService]
-    });
+	TestBed.configureTestingModule({
+		providers: [CustomerService]
+	});
   });
 
   it('should be created', inject([CustomerService], (service: CustomerService) => {
-    expect(service).toBeTruthy();
+	expect(service).toBeTruthy();
   }));
 });
